@@ -1,0 +1,25 @@
+{
+  "name": "e-commerce-cypress-framework",
+  "version": "1.0.0",
+  "description": "end to end e-commerce testing with the Cypress framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criszayala/e-commerce-cypress-framework.git"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "Criszayala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criszayala/e-commerce-cypress-framework/issues"
+  },
+  "homepage": "https://github.com/criszayala/e-commerce-cypress-framework#readme"
+}
