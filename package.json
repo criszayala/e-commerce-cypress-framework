@@ -4,7 +4,8 @@
   "description": "end to end e-commerce testing with the Cypress framework",
   "main": "index.js",
   "scripts": {
-    "test": "test-cypress"
+    "test": "test-cypress",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
