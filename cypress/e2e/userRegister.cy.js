@@ -4,9 +4,9 @@ describe('User register', () => {
       cy.visit('https://magento.softwaretestingboard.com/')
     })
   
-    // Test case to check if Reset Password form is displayed when the link is clicked
-    it('should display the Reset Password form when the link is clicked', () => {
-      cy.get('.loginForm a').contains('Forgot your password?').click()
+    // Test case to verify that a new user can be registered in the store
+    it('Test 1: ', () => {
+      cy.get('.panel header').contains('Create an Account').click()
       cy.get('.resetBox').should('be.visible')
     })
 })
